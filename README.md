@@ -42,3 +42,14 @@
 5. Plugins :- A rich ecosystem of plugins extends Mongoose functionality, such as adding support for versioning, full-text search, etc.
 
 6. Advanced Query Features :- Mongoose provides powerful query building capabilities and supports advanced MongoDB features like aggregation.
+
+### [Express](https://expressjs.com/)
+
+### When to use extended: true 
+
+```javascript
+app.use(express.urlencoded({ extended: true}))
+```
+- When you need to parse nested objects or arrays in the URL-encoded data.
+
+- When you require a more robust parsing capability that can handle rich data structures.
