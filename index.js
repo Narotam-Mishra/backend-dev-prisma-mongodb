@@ -13,6 +13,10 @@ app.use(express.urlencoded({ extended: true}))
 // verifies that whether user is allowed to make request or not
 app.use(cookieParser())
 
+// use router
+const userRouter = require('./routes/userRoutes')
+
+app.use('/api', userRouter)
 
 app.get('/', (req, res) => {
     res.send("Working with Prisma")
