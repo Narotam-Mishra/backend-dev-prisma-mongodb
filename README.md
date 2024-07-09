@@ -53,3 +53,11 @@ app.use(express.urlencoded({ extended: true}))
 - When you need to parse nested objects or arrays in the URL-encoded data.
 
 - When you require a more robust parsing capability that can handle rich data structures.
+
+- command to run Prisma's studio
+
+```javascript
+npx prisma studio
+```
+
+### [Prisma Client CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/crud)
