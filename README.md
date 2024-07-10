@@ -54,7 +54,7 @@ app.use(express.urlencoded({ extended: true}))
 
 - When you require a more robust parsing capability that can handle rich data structures.
 
-- command to run Prisma's studio
+### command to run Prisma's studio
 
 ```javascript
 npx prisma studio

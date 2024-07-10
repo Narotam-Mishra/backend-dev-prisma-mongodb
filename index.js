@@ -16,7 +16,11 @@ app.use(cookieParser())
 // use router
 const userRouter = require('./routes/userRoutes')
 
+// post router
+const postRouter = require('./routes/postRoutes')
+
 app.use('/api', userRouter)
+app.use('/api', postRouter)
 
 app.get('/', (req, res) => {
     res.send("Working with Prisma")
